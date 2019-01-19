@@ -15,6 +15,7 @@
   font-family: arial;
   font-size: 15px;
   line-height: 1em;
+  z-index: 9999;
 }
 
 .daterangepicker:before, .daterangepicker:after {
@@ -22,6 +23,7 @@
   display: inline-block;
   border-bottom-color: rgba(0, 0, 0, 0.2);
   content: '';
+  z-index: 9999;
 }
 
 .daterangepicker:before {
@@ -256,6 +258,7 @@
   margin: 4px auto 0 auto;
   line-height: 30px;
   position: relative;
+  z-index: 9999;
 }
 
 .daterangepicker .calendar-time select.disabled {
